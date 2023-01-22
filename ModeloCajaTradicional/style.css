@@ -1,0 +1,172 @@
+/*selector universal*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: newFont;
+    src: url(./fuentes/ProximaSoft-Bold.ttf);
+}
+#cabeceraLogo {
+    width: 96%;
+    height: 150px;
+    padding: 0% 2%;
+    background-color: #0B0C10;
+}
+#cabeceraLogo > div {
+    width: 960px;
+    margin: 0px auto;
+    padding-top: 45px;
+}
+#cabeceraLogo h1 {
+    font: bold 54px newFont;
+    color: #45A29E;
+}
+#menuPrincipal {
+    width: 96%;
+    height: 50px;
+    padding: 0% 2%;
+    background-color: #0B0C10;
+}
+#menuPrincipal > div {
+    width: 960px;
+    margin: 0px auto;
+}
+#menuPrincipal li {
+    position: relative;
+    display: inline-block;
+    height: 35px;
+    padding: 15px 10px 0px 10px;
+    margin-right: 5px;
+}
+#menuPrincipal a {
+    font: bold 18px newFont;
+    text-decoration: none;
+    color: #45A29E;
+}
+#menuPrincipal a:hover {
+    color: #66F6F1;
+}
+main {
+    width: 96%;
+    padding: 2%;
+    background-color: #1F2833;
+}
+main > div {
+    width: 960px;
+    margin: 0px auto;
+}
+#articulosPrincipales {
+    float: left;
+    width: 620px;
+    padding-top: 30px;
+    background-color: #C5C6C7;
+    border-radius: 10px;
+}
+#infoAdicional {
+    float: right;
+    width: 280px;
+    padding: 20px;
+    background-color: #C5C6C7;
+    border-radius: 10px;
+    font: bold 18px newFont;
+}
+#infoAdicional h1 {
+    font: bold 18px newFont;
+    margin-bottom: 15px;
+}
+.recuperar {
+    clear: both;
+}
+article {
+    position: relative;
+    padding: 0px 40px 20px;
+    position: relative;
+}
+article time {
+    display: block;
+    position: absolute;
+    top: -5px;
+    left:-70px;
+    width: 80px;
+    padding: 15px 5px;
+    background-color: #0B0C10;
+    box-shadow: 3px 3px 5px rgba(10, 10, 10, 0.7);
+    border-radius: 5px;
+}
+.numerodia {
+    font: bold 36px newFont;
+    color: whitesmoke;
+    text-align: center;
+}
+.nombredia {
+    font: 12px newFont;
+    color: whitesmoke;
+    text-align: center;
+}
+article h1 {
+    margin-bottom: 5px;
+    font: bold 30px newFont;
+}
+article p {
+    font: 18px newFont;
+}
+figure {
+    margin: 10px 0px;
+}
+figure img {
+    padding: 5px;
+}
+#pieLogo {
+    width: 96%;
+    padding: 2%;
+    background-color: #1F2833;
+}
+#pieLogo > div {
+    width: 960px;
+    margin: 0px auto;
+    background-color: #0B0C10;
+    border-radius: 10px;
+}
+.seccionPie {
+    float: left;
+    width: 27.33%;
+    padding: 3%;
+    color: whitesmoke;
+}
+.seccionPie h1 {
+    font: bold 20px newFont;
+}
+.seccionPie p {
+    margin-top: 5px;
+}
+.seccionPie a {
+    font: bold 16px newFont;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.seccionPie a:hover {
+    color:#66F6F1;
+}
+#listamenu > li {
+    position: relative;
+    display: inline-block;
+    height: 35px;
+    padding: 15px 10px 0px 10px;
+    margin-right: 5px;
+}
+#listamenu li > ul {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+
+    background-color: #45A29E;
+    box-shadow: 3px 3px 5px rgba(10, 10, 10, 0.7);
+    border-radius: 0px 0px 5px 5px;
+
+    list-style: none;
+    z-index: 1000;
+}
+
+
